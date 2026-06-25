@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.7] — 2026-06-25
+
+### Changed
+- Added crates.io metadata, README badges, and Clippy in CI.
+- Depends on `cel-context` 0.1.7 from crates.io.
+- Fixed a rustdoc formatting issue in `ExecutionReceipt` docs.
+
 ## [0.1.6] — 2026-06-25
 
 ### Added
