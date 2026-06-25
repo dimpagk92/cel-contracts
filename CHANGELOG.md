@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] — 2026-06-25
+
+### Changed
+- Depends on `cel-context` **0.2.0** from crates.io.
+- MSRV raised to **1.76** (`rust-version` in `Cargo.toml`).
+
 ## [0.1.7] — 2026-06-25
 
 ### Changed
