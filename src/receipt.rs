@@ -120,7 +120,7 @@ pub enum ReceiptStatus {
 /// Canonical, core-emitted record of one dispatched action.
 ///
 /// One receipt per action the runtime executes. Carries the intent (action kind
-/// + target), the actual dispatch route, the observed effect, evidence
+/// and target), the actual dispatch route, the observed effect, evidence
 /// references, timing, and terminal status.
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
 pub struct ExecutionReceipt {
