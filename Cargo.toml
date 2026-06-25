@@ -10,7 +10,7 @@ categories = ["data-structures"]
 readme = "README.md"
 
 [dependencies]
-cel-context = "0.1.5"
+cel-context = "0.1.6"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 async-trait = "0.1"
