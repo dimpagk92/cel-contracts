@@ -43,7 +43,7 @@ inspectable, and testable.
 ## Upgrading from 0.1.x
 
 Bump `cel-context` to **0.2.0** alongside this crate. See the
-**[0.2 migration guide](https://github.com/dimpagk92/cellar/blob/sync/main-from-private-2026-06-10/docs/migration-0.2.md)**.
+**[0.2 migration guide](https://github.com/dimpagk92/cellar/blob/main/docs/migration-0.2.md)**.
 
 ## Receipt Boundary
 
