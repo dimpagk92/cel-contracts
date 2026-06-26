@@ -38,6 +38,13 @@ planner → PlannedAction → runtime → ExecutionReceipt
 Any runtime can implement this boundary while keeping the schema open,
 inspectable, and testable.
 
+**Status:** v0.2.0 on [crates.io](https://crates.io/crates/cel-contracts) — depends on **`cel-context` 0.2.0**.
+
+## Upgrading from 0.1.x
+
+Bump `cel-context` to **0.2.0** alongside this crate. See the
+**[0.2 migration guide](https://github.com/dimpagk92/cellar/blob/sync/main-from-private-2026-06-10/docs/migration-0.2.md)**.
+
 ## Receipt Boundary
 
 `ExecutionReceipt` proves dispatch and observed effect. It does not prove the
